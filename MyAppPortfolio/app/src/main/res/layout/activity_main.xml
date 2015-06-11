@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:weightSum="10"
+
+          >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+
+              <Button
+                  android:id="@+id/spotify"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/spotify"
+                  android:textSize="20sp"
+                  android:background="@color/orange"
+                  />
+
+              <Button
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/scores"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/scores"
+                  android:textSize="20sp"
+                  android:background="@color/orange"
+                  />
+              <Button
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/lybrary"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/lybrary"
+                  android:textSize="20sp"
+                  android:background="@color/orange"
+                  />
+
+              <Button
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/build"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/build"
+                  android:textSize="20sp"
+                  android:background="@color/orange"
+                  />
+
+              <Button
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/xyz"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/xyz"
+                  android:textSize="20sp"
+                  android:background="@color/orange"
+                  />
+
+              <Button
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/capstone"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/capstone"
+                  android:textSize="20sp"
+                  android:background="@color/orange"
+                  />
+
+          </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
